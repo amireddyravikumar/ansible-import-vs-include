@@ -4,7 +4,7 @@
 
 - name: call common role
   debug:
-    msg: "Hi, i am from call role msg -2"
+    msg: "Hi, i am from call role msg -2 {{ item }}"
 - name: change the fast
   set_fact:
     os: Debian # overloaded varaible
