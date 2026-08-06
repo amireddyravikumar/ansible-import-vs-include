@@ -5,4 +5,6 @@
   tags:
   - hi
   when: os == "Redhat"
-
+  loop:
+  - a
+  - b
