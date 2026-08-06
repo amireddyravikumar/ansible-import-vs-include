@@ -11,5 +11,5 @@
     msg: "Hi, i am from call role msg -3"
            
 - name: call role 2
-  import_role:
+  include_role:
     name: role-3          
