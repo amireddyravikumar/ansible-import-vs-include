@@ -1,0 +1,12 @@
+- name: call common role
+  debug:
+    msg: "Hi, i am from call role msg -1"
+    
+- name: call common role
+  debug:
+    msg: "Hi, i am from call role msg -2"
+
+- name: call common role
+  debug:
+    msg: "Hi, i am from call role msg -3"
+           
